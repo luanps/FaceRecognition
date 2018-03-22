@@ -1,25 +1,28 @@
-Face Recognition User Interface based on [Dlib](http://dlib.net)[1]
+# Face Recognition User Interface based on [Dlib](http://dlib.net)[1]
 
 This face recognition system has been trained on a dataset with 3 million faces
 [3,4]. Accuracy achieved on Labeled Faces in the Wild (LFW)[2] dataset: 99.38%
 More details about Dlib face analisys pipeline can be obtained
-[here](https://github.com/davisking/dlib-models)
+[here].(https://github.com/davisking/dlib-models)
 
-**Basic Requirements:
-python3
-dlib
-numpy
-cv2 (opencv)
-python3-tk
-Pillow
-_pickle
-skimage
+**Basic Requirements:**
 
-**Download Dlib Trained models from:**
+- python3
+- dlib
+- numpy
+- cv2 (opencv)
+- python3-tk
+- Pillow
+- _pickle
+- skimage
+
+**Download Dlib trained models from:**
+
 [Face alignment](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2)
 descriptor](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2)
 
 **References:**
+
 [1] http://dlib.net/
 
 [2] HUANG, Gary B. et al. Labeled faces in the wild: A database for studying
