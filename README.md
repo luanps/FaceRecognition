@@ -3,7 +3,7 @@
 This face recognition system has been trained on a dataset with 3 million faces
 [3,4]. Accuracy achieved on Labeled Faces in the Wild (LFW)[2] dataset: 99.38%
 More details about Dlib face analisys pipeline can be obtained
-[here].(https://github.com/davisking/dlib-models)
+[here](https://github.com/davisking/dlib-models).
 
 **Basic Requirements:**
 
@@ -18,8 +18,17 @@ More details about Dlib face analisys pipeline can be obtained
 
 **Download Dlib trained models from:**
 
-[Face alignment](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2)
-descriptor](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2)
+- [Face alignment](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2)
+- [Face descriptor](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2)
+
+**1st time usage:**
+
+*./python3 face_recognition.py*
+
+That creates an empty *datak.pkl* dataset as default. You can also evaluate your dataset parsing it:
+
+*./python3 -d $data.pkl recognition.py*
+
 
 **References:**
 
@@ -35,4 +44,5 @@ datasets. Proc. IEEE International Conference on Image Processing (ICIP),
 
 [4] O. M. Parkhi, A. Vedaldi, A. Zisserman Deep Face Recognition British
 Machine Vision Conference, 2015.
+
 
